@@ -37,6 +37,11 @@ class UpdateOperators extends Command
             $operatorsData = $this->getTestData();
 
             foreach ($operatorsData as $data) {
+                // Si el Operario ya existe en db lasnzamos mensaje de error
+                if ($this->entityManager->getRepository(Operator::class)->findOneBy(['id' => $data['id']])) {
+                    $this->error('Operator already exists.');
+                    return 1;
+                }
                 // Creación de un nuevo objeto y lo completamos con los datos obtenidos
                 $operator = new Operator();
                 $operator->setCustomerId($data['customer_id']);
