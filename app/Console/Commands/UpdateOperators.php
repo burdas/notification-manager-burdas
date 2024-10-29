@@ -68,7 +68,7 @@ class UpdateOperators extends Command
             return 0;
         } catch (\Exception $e) {
             $this->error('Error 500: Failed to update operators.');
-            //$this->error($e->getMessage());
+            $this->error($e->getMessage());
             return 1;
         }
     }
