@@ -68,7 +68,7 @@ class UpdateOperators extends Command
             return 0;
         } catch (\Exception $e) {
             $this->error('Error 500: Failed to update operators.');
-            $this->error($e->getMessage());
+//            $this->error($e->getMessage());
             return 1;
         }
     }
@@ -81,7 +81,7 @@ class UpdateOperators extends Command
                 "sequence_number" => 1510105,
                 "journal_entry_type" => "UP",
                 "customer_id" => 26,
-                "id" => 2,
+                "id" => 3,
                 "name" => "654654",
                 "surname_1" => "",
                 "surname_2" => "",

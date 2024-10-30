@@ -1,0 +1,18 @@
+[90m= [39m[34;4mIlluminate\Foundation\Application[39;24m {#4
+    [34mconfigurationIsCached[39m: [36mfalse[39m,
+    [34menvironment[39m: "[32mlocal[39m",
+    [34menvironmentFile[39m: "[32m.env[39m",
+    [34misLocal[39m: [36mtrue[39m,
+    [34mroutesAreCached[39m: [36mfalse[39m,
+    [34mrunningUnitTests[39m: [36mfalse[39m,
+    [34mversion[39m: "[32m11.29.0[39m",
+    [34mpath[39m: "[32m/var/www/html/app[39m",
+    [34mbasePath[39m: "[32m/var/www/html[39m",
+    [34mconfigPath[39m: "[32m/var/www/html/config[39m",
+    [34mdatabasePath[39m: "[32m/var/www/html/database[39m",
+    [34mlangPath[39m: "[32m/var/www/html/lang[39m",
+    [34mpublicPath[39m: "[32m/var/www/html/public[39m",
+    [34mstoragePath[39m: "[32m/var/www/html/storage[39m",
+    [34mbootstrapPath[39m: "[32m/var/www/html/bootstrap[39m",
+  }
+
