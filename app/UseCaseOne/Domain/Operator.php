@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Entity;
-
+namespace App\UseCaseOne\Domain;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
